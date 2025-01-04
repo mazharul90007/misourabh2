@@ -2,6 +2,8 @@
 import emailjs from "emailjs-com";
 import { useState } from "react";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import emailAnimation from '../../../../public/email.json'
+import Lottie from "lottie-react";
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -47,13 +49,14 @@ const Contact = () => {
                     {/* Description Section */}
                     <div className=" md:w-1/2 flex flex-col items-center p-6 shadow-md">
                         {/* Image */}
-                        <div className="w-36 h-36 rounded-full overflow-hidden bg-blue-200 flex justify-center items-center">
+                        <div className="w-60 h-60">
                             {/* Placeholder for image */}
-                            <img
+                            {/* <img
                                 src="https://via.placeholder.com/100"
                                 alt="Profile"
                                 className="object-cover"
-                            />
+                            /> */}
+                            <Lottie animationData={emailAnimation}></Lottie>
                         </div>
 
                         {/* Contact Info */}
