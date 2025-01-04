@@ -7,7 +7,7 @@ const Education = () => {
             <section className="">
                 <h2 className=" text-center text-4xl font-rye mb-5">Education</h2>
 
-                <div className="p-6 flex gap-4">
+                <div className="p-6 flex justify-center gap-4">
                     {/* Description Part */}
                     <div className="space-y-4 w-1/2">
                         {/* Bachelor's Degree */}
@@ -44,7 +44,7 @@ const Education = () => {
 
                     {/* Image Part */}
                     <div className="w-1/2 flex justify-items-end items-center">
-                        <Lottie animationData={education}></Lottie>
+                        <Lottie animationData={education} className="h-96 w-auto"></Lottie>
                     </div>
                 </div>
             </section>
