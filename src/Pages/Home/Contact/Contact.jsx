@@ -4,6 +4,7 @@ import { useState } from "react";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import emailAnimation from '../../../../public/email.json'
 import Lottie from "lottie-react";
+// import emailjs from '@emailjs/browser';
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -25,7 +26,7 @@ const Contact = () => {
 
         // Send email via EmailJS
         emailjs
-            .sendForm("your_service_id", "your_template_id", e.target, "your_user_id")
+            .sendForm("service_qhxicgg", "template_sixmgpf", e.target, "-W2u0QQ0zK7n5JowH")
             .then(
                 (result) => {
                     console.log(result.text);

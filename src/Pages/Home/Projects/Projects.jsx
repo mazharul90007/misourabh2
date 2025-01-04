@@ -23,7 +23,7 @@ const Projects = () => {
                         ></div>
 
                         {/* Overlay */}
-                        <div className="absolute inset-0 bg-black bg-opacity-10 group-hover:bg-opacity-40 transition duration-300 ease-in-out"></div>
+                        <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition duration-300 ease-in-out"></div>
 
                         {/* Text Content */}
                         <div className="absolute inset-0 flex flex-col justify-center items-center opacity-0 group-hover:opacity-100 text-white transition duration-300 ease-in-out">

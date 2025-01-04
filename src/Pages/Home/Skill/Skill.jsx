@@ -10,7 +10,7 @@ const Skill = () => {
                 <h2 className=" text-center text-4xl font-rye mb-5">Technical Skills</h2>
 
                 <div className="">
-                    <Marquee autoFill pauseOnHover>
+                    <Marquee autoFill pauseOnHover speed={40}>
                         <div className="text-center mx-4 p-4 border border-r-2 border-b-2 border-black shadow-lg rounded-md">
                             <FaHtml5 className="text-orange-600 text-5xl mx-4" />
                             <p className="mt-2 text-gray-800">HTML5</p>
