@@ -40,9 +40,11 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className="py-2 px-4 border border-black border-r-2 border-b-2 rounded-md hover:scale-90 transition-transform duration-300 font-bold font-cinzel">
-                    Download Resume
-                </button>
+                <a href="/sourabh-cv.pdf" target="_blank" rel="noopener noreferrer">
+                    <button className="py-2 px-4 border border-black border-r-2 border-b-2 rounded-md hover:scale-95 transition-transform duration-300 font-bold font-cinzel">
+                        Download Resume
+                    </button>
+                </a>
             </div>
         </div>
     );

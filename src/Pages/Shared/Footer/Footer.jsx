@@ -12,7 +12,7 @@ const Footer = () => {
         {/* Social Links */}
         <div className="flex space-x-4 mt-4 md:mt-0">
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/mazharul90007"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white text-2xl"
@@ -20,7 +20,7 @@ const Footer = () => {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/in/your-profile"
+            href="https://www.linkedin.com/in/mazharul-islam-sourabh-4111b3227/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-white text-2xl"
@@ -36,7 +36,7 @@ const Footer = () => {
             <FaTwitter />
           </a>
           <a
-            href="mailto:your-email@example.com"
+            href="mailto:mazharul90006@gmail.com"
             className="text-gray-400 hover:text-white text-2xl"
           >
             <FaEnvelope />

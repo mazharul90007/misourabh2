@@ -3,25 +3,41 @@
       "id": 1,
       "image": "https://i.ibb.co.com/b6fy53D/Recommendo.png",
       "name": "Recommendo",
-      "description": "Recommendo is a recommendation platform where users can submit their queries for product recommendations and provide suggestions to others."
+      "type": "Product recommendation site",
+      "description": "Recommendo is a recommendation platform where users can submit their queries for product recommendations and provide suggestions to others.",
+      "liveLink": "",
+      "github-client": "",
+      "github-server": ""
     },
     {
       "id": 2,
       "image": "https://i.ibb.co.com/hXcNr9B/equisport.png",
       "name": "EquiSports",
-      "description": "The Sports Equipment Online Store is a responsive e-commerce website designed to provide users with a platform to browse, purchase, and review various sports accessories, ranging from gear to apparel, catering to different sports disciplines. This project focuses on creating a dynamic, user-friendly shopping experience with full authentication and product management features."
+      "type": "Sports Equipments e-commerce",
+      "description": "The Sports Equipment Online Store is a responsive e-commerce website designed to provide users with a platform to browse, purchase, and review various sports accessories, ranging from gear to apparel, catering to different sports disciplines. This project focuses on creating a dynamic, user-friendly shopping experience with full authentication and product management features.",
+      "liveLink": "",
+      "github-client": "",
+      "github-server": ""
     },
     {
       "id": 3,
-      "image": "https://via.placeholder.com/300x200?text=Project+3",
-      "name": "Foodie's Delight",
-      "description": "A dynamic platform for food enthusiasts to explore recipes, review dishes, and share cooking tips. Created using Angular, Node.js, and MongoDB."
+      "image": "https://i.ibb.co.com/2MpSpMh/pet.png",
+      "name": "Peddy",
+      "type": "Pet Adaption Site",
+      "description": "Peddy is a platform dedicated to helping families find their perfect pet companion. It simplifies the adoption process by connecting users with a variety of pets, including puppies, kittens, and adult animals in need of loving homes. The site offers an easy way to browse and adopt, ensuring a heartwarming experience for both the pet and the adopter.",
+      "liveLink": "https://peddy-friend.netlify.app/",
+      "github-client": "",
+      "github-server": ""
     },
     {
       "id": 4,
       "image": "https://via.placeholder.com/300x200?text=Project+4",
       "name": "FitTrack",
-      "description": "FitTrack is a fitness tracking app that helps users monitor their workouts, diet, and progress. Built with React Native and integrated with Google Fit API."
+      "type": "Product recommendation site",
+      "description": "FitTrack is a fitness tracking app that helps users monitor their workouts, diet, and progress. Built with React Native and integrated with Google Fit API.",
+      "liveLink": "",
+      "github-client": "",
+      "github-server": ""
     }
   ]
   
