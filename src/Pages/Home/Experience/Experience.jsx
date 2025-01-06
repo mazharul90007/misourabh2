@@ -2,7 +2,7 @@ import { FaBuilding, FaUserAlt } from "react-icons/fa";
 
 const Experience = () => {
     return (
-        <div className="my-12">
+        <div className="my-16">
             <section className="">
                 <h2 className=" text-center text-4xl font-rye mb-5">My Experience</h2>
 

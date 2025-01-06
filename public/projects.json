@@ -31,11 +31,11 @@
     },
     {
       "id": 4,
-      "image": "https://via.placeholder.com/300x200?text=Project+4",
-      "name": "FitTrack",
-      "type": "Product recommendation site",
-      "description": "FitTrack is a fitness tracking app that helps users monitor their workouts, diet, and progress. Built with React Native and integrated with Google Fit API.",
-      "liveLink": "",
+      "image": "https://i.ibb.co.com/xXY3psn/coffee-club.png",
+      "name": "Coffee Club",
+      "type": "Coffee Shop site",
+      "description": "The 'Coffee Club' website offers a cozy, welcoming platform dedicated to coffee enthusiasts. It provides a space to explore various types of coffee, interact with other coffee lovers, and discover coffee-related content. The design is sleek, user-friendly, and includes engaging visuals that celebrate coffee culture. Visitors can enjoy browsing through different coffee blends, articles, and join the coffee community for an immersive experience.",
+      "liveLink": "https://coffee-club.netlify.app/",
       "github-client": "",
       "github-server": ""
     }

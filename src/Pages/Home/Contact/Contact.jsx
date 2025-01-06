@@ -42,7 +42,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="my-12">
+        <div className="my-16">
             <h2 className=" text-center text-4xl font-rye mb-5">Contact Me</h2>
             <div className="">
                 <div className="flex flex-col md:flex-row  border border-black border-r-4 border-b-4 rounded-lg shadow-lg">

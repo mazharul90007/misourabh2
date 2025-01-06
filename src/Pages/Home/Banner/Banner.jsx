@@ -1,11 +1,11 @@
-import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
+
 import { FaLinkedinIn, FaGithub } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+
 
 
 const Banner = () => {
     return (
-        <div>
+        <div className="mb-16">
             <div className="hero bg-paper w-full">
                 <div className="hero-content max-w-[1440px] w-full mx-auto px-4 flex-col-reverse md:flex-row">
                     {/* Left Section */}
@@ -14,7 +14,7 @@ const Banner = () => {
                         <h3 className="text-2xl md:text-3xl font-semibold">Web Developer</h3>
                         <p className="text-xl font-semibold text-gray-500">I create user-friendly interface for fast-growing startups</p>
                         <a href="/sourabh-cv.pdf" target="_blank" rel="noopener noreferrer">
-                            <button className="py-2 px-4 border border-black border-r-2 border-b-2 rounded-md hover:scale-95 transition-transform duration-300 font-bold font-cinzel">
+                            <button className="py-2 my-4 px-4 border border-black border-r-2 border-b-2 rounded-md hover:scale-95 transition-transform duration-300 font-bold font-cinzel">
                                 View Resume
                             </button>
                         </a>

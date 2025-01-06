@@ -5,7 +5,7 @@ import Marquee from "react-fast-marquee";
 
 const Skill = () => {
     return (
-        <div className="my-12">
+        <div className="my-16">
             <section className="">
                 <h2 className=" text-center text-4xl font-rye mb-5">Technical Skills</h2>
 
