@@ -11,7 +11,8 @@ export default {
       fontFamily: {
         cinzel: ['"Cinzel Decorative"', 'serif'], // Add Cinzel Decorative
         ewert: ['"Ewert"', 'cursive'],  // Add Ewert
-        rye: ["Rye", 'serif'] // Rye
+        rye: ["Rye", 'serif'], // Rye
+        fuggles: ["Fuggles", "serif"] //Fuggles
       },
       colors: {
         paper: '#F9F4DA',   // background paper
