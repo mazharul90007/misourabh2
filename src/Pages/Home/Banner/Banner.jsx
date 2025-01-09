@@ -2,8 +2,6 @@
 import { FaLinkedinIn, FaGithub } from "react-icons/fa6";
 import profileImg from '../../../assets/profileImg2.png'
 
-
-
 const Banner = () => {
     return (
         <div className="mb-16">
