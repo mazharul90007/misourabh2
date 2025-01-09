@@ -5,7 +5,7 @@ import Footer from "../Pages/Shared/Footer/Footer";
 
 const MainLayout = () => {
     return (
-        <div className="bg-paper">
+        <div className="bg-paper max-w-7xl mx-auto">
             <div className="sticky top-0 z-50">
                 <Navbar></Navbar>
             </div>
