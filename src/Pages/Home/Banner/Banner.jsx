@@ -1,5 +1,6 @@
 
 import { FaLinkedinIn, FaGithub } from "react-icons/fa6";
+import profileImg from '../../../assets/profileImg2.png'
 
 
 
@@ -31,9 +32,9 @@ const Banner = () => {
                     {/* Right Section */}
                     <div className="md:w-1/2 flex justify-end">
                         <img
-                            src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+                            src={profileImg}
                             alt="A professional portrait"
-                            className="rounded-lg shadow-xl max-w-full h-auto border border-r-4 border-b-4 border-black p-12"
+                            className="rounded-lg shadow-xl max-w-full border border-r-4 border-b-4 border-black h-80"
                         />
                     </div>
                 </div>
