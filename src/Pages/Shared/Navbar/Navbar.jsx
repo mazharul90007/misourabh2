@@ -49,7 +49,7 @@ const Navbar = () => {
                 <ul className="menu menu-horizontal gap-5 hidden lg:flex text-lg font-semibold font-cinzel mr-2">
                     {navList}
                 </ul>
-                <a href="/sourabh-cv.pdf" target="_blank" rel="noopener noreferrer">
+                <a href="/Resume_of_Sourabh.pdf" target="_blank" rel="noopener noreferrer">
                     <img className="w-12 h-12" src={cv} alt="" />
                 </a>
             </div>
