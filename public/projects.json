@@ -3,7 +3,7 @@
     "id": 1,
     "image": "https://i.ibb.co.com/QFkSPm2f/nesttree.png",
     "name": "NestTree",
-    "type": "Product recommendation site",
+    "type": "Real estate marketplace website",
     "description": "Nesttree is a dynamic marketplace where users can browse, list, and manage properties. The platform provides an intuitive experience for users looking to buy properties, and for agents and admins to manage listings.",
     "liveLink": "https://nesttree-d03bc.web.app/",
     "githubClient": "https://github.com/mazharul90007/nesttree-client",
