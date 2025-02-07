@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
@@ -62,15 +61,23 @@ const Projects = () => {
                             <img src={selectedProject.image} alt={selectedProject.name} className="w-full my-4 rounded-lg" />
                             <p>{selectedProject.description}</p>
                             <div className='flex items-center gap-2 my-6 justify-center'>
-                                <Link>
-                                    <button className="py-2 px-4 border border-black border-r-2 border-b-2 rounded-md hover:scale-95 transition-transform duration-300 font-bold font-cinzel">
+                                <a href={selectedProject?.liveLink} target='_blank'>
+                                    <button className="py-2 px-3 border border-black border-r-2 border-b-2 rounded-md hover:scale-95 transition-transform duration-300 font-bold font-cinzel">
                                         VISIT SITE
                                     </button>
-                                </Link>
-                                <p>or</p>
-                                <button className="py-2 px-4 border border-black border-r-2 border-b-2 rounded-md hover:scale-95 transition-transform duration-300 font-bold font-cinzel">
-                                    VISIT SOURCE
-                                </button>
+                                </a>
+
+                                <a href={selectedProject?.githubClient} target='_blank'>
+                                    <button className="py-2 px-3 border border-black border-r-2 border-b-2 rounded-md hover:scale-95 transition-transform duration-300 font-bold font-cinzel">
+                                        Client Code
+                                    </button>
+                                </a>
+
+                                <a href={selectedProject?.githubServer} target='_blank'>
+                                    <button className="py-2 px-3 border border-black border-r-2 border-b-2 rounded-md hover:scale-95 transition-transform duration-300 font-bold font-cinzel">
+                                        Server Code
+                                    </button>
+                                </a>
                             </div>
                         </div>
                         <div className="modal-action">
